@@ -25,7 +25,6 @@ function GetCurrentDate() {
 function SetCurrentDate() {
   document.querySelector("li#date").innerHTML = GetCurrentDate();
 }
-
 function searchCity(city) {
   var apiKey = "03cc9b8479bb5a2db9ec53fe58f6ab8a";
   var apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
